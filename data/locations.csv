@@ -1,0 +1,3 @@
+"name","id","latitude","longitude","description","your_data_variable_here"
+"Example Creek","ex01",59.444073,-123.654309,"Located in Fort Nelson region, this example is an example location",false
+"Example D/S","ex02",59.444073,-123.654309,"Also located in Fort Nelson, this is an example description too, feel free to delete these rows.",false
