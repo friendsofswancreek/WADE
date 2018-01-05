@@ -14,8 +14,10 @@ Foundry Spatial is a Victoria BC based company that specializes in turning **raw
 
 This file is written using [Markdown](https://guides.github.com/features/mastering-markdown/). This file is located in the `docs` folder, and you can edit as you like.
 
+After editing this file, commit and push to github. It may take some time before you notice a change.
+
 ### Github Pages
 
-You can find out more inforamtion about these pages from [Github Pages](https://pages.github.com/).
+You can find out more information about these pages from [Github Pages](https://pages.github.com/).
 
 This file was last edited on {{page.date}}
