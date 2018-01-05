@@ -6,6 +6,8 @@ Welcome to the WAter Data Exchange (WADE). This Data Exchange relies upon the co
 
 This project is designed to be easy to contribute, and easy to use. If you find any friction points, please contact Foundry Spatial at technical@foundryspatial.com.
 
+Forking this project will also give you a website page at a URL that looks like this: `https://<username>.github.io/<projectname>/`. For example, this project has a website page here: <https://foundry-spatial.github.io/WADE/>, which was generated from the `index.md` file in the `docs` directory - Modify as you like but please keep the `---` lines at the top of file or your page won't get generated.  [Read more about github pages.](https://pages.github.com/)
+
 ### Sign up and sign in to github
 
 If you haven't created an account for github already, please follow their instructions at <https://github.com/join>.  Once you have confirmed your email and account information, please visit [this repository](https://github.com/Foundry-Spatial/WADE) again, or refresh your browser.
