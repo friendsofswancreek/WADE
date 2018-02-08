@@ -6,7 +6,9 @@ Welcome to the WAter Data Exchange (WADE). This Data Exchange relies upon the co
 
 This project is designed to be easy to contribute, and easy to use. If you find any friction points, please contact Foundry Spatial at technical@foundryspatial.com.
 
-Forking this project will also give you a website page at a URL that looks like this: `https://<username>.github.io/<projectname>/`. For example, this project has a website page here: <https://foundry-spatial.github.io/WADE/>, which was generated from the `index.md` file in the `docs` directory - Modify as you like but please keep the `---` lines at the top of file or your page won't get generated.  [Read more about github pages.](https://pages.github.com/)
+### Your own Documentation
+
+Forking this project will also give you a website page at a URL that looks like this: `https://<username>.github.io/<projectname>/`. For example, this project has a website page here: <https://foundry-spatial.github.io/WADE/>, which was generated from the `index.md` file in the `docs` directory - Modify as you like but please keep the `---` lines at the top of file, or your page won't get generated.  [Read more about github pages.](https://pages.github.com/)
 
 ### Sign up and sign in to github
 
@@ -28,7 +30,7 @@ You may also want to use the native git client - to do so, follow the instructio
 
 You will need to "clone" your newly created repository (which should be located somewhere like `https://github.com/<yourname>/WADE`).
 
-This will put a copy of the repository on your local system, which you may then add to or edit.
+This will put a copy of the repository on your local system, which you may then add to and/or edit.
 
 Once you have finished editing, add any changed files, and commit. You will then need to "push" your changes to github.
 
@@ -39,26 +41,30 @@ Water data can naturally be divided into two components:
 1. information on the location where it is collected - location name, coordinates, type of feature, instrument used, etc…
 1. associated with specific monitoring events, include the date, time, parameter measured, detection limit, units, and measured value.
 
-Simple (yet extendable) data elements are included in the `data` folder. You may extend the data as required as long as these basic data characteristics are maintained.
+Simple (yet extendable) data files are included in the `data` folder. You may extend the data as required as long as these basic data characteristics are maintained.
 
 ### Required files
 
-#### data/meta.csv
+#### data/metadata.csv
 
-This file contains any "metadata" you wish to have for the system. This may include but is not limited to: `group name`, `group contributors`, `contact email`, &c. Please modify the `meta.csv` file to reflect your working group's information, and add any other data as required.
+This file contains any "metadata" you wish to have for the system. This may include but is not limited to: `group name`, `group contributors`, `contact email`, &c. Please modify the `metadata.csv` file to reflect your working group's information, and add any other data as required (as columns).
 
 #### data/locations.csv
 
-This file contains unique station/location ids, and their corresponding names, as well as their geospacial location, either as a point (latitude, longitude values) or alternatively a geojson shape.
+This file contains unique station/location ids, and their corresponding names, as well as their geospacial location, either as a point (latitude, longitude values) or alternatively a geojson shape - should you wish to have some other information on a per-location basis, (e.g. collection method, region, etc.) add more columns.  LocationID _must_ be unique in this `locations.csv` file.
 
 #### data/<>.csv
 
 All other files in the `data` directory will be considered as "observational data". In other words, you may separate out your CSV in whichever way you choose, as long as it makes sense to you. However, there needs to be the following columns for any of these files:
 
-* location id, which *must* correspond to a location ID, and be unique (i.e. don't use the same id twice)
-* date or datetime (with time zone, if possible) in [ISO 8601 standard format](https://en.wikipedia.org/wiki/ISO_8601) - e.g. `2007-03-01T13:00:00Z`, `2017-12-31`
+* location id, which *must* correspond to a location ID in `data/locations.csv`.
+* date or datetime (with time zone, if possible) in [ISO 8601 standard format](https://en.wikipedia.org/wiki/ISO_8601) - e.g. `2007-03-01T13:00:00Z`, `2017-12-31`, `2017-12-31T13:59:59+08:00`
 
-All headers in the observational data csvs should include the variable and their measurement units as required. e.g. Stream Discharge (m3/s), Water Level (Metres), Minimum Temperature (celsius), &c.  See the example `observations.csv` file.  You may edit this file or add others.
+Please look at the example `data/observations.csv` file included in this repository - you should note that observation parameters are _per row_, and the observation type and unit measurement are separate columns.
+
+#### data/<>.geojson (optional)
+
+Github has a built in mapping system, where, if you supply valid geojson formatted files, it will map out points and geometry. Most mapping software has the ability to export into geojson.  There are free converters of popular formats to geojson online as well. [Read more about GeoJSON.](http://geojson.org/).
 
 ## Terminology
 
