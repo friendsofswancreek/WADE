@@ -51,7 +51,7 @@ This file contains any "metadata" you wish to have for the system. This may incl
 
 #### data/locations.csv
 
-This file contains unique station/location ids, and their corresponding names, as well as their geospacial location, either as a point (latitude, longitude values) or alternatively a geojson shape - should you wish to have some other information on a per-location basis, (e.g. collection method, region, etc.) add more columns.  LocationID _must_ be unique in this `locations.csv` file.
+This file contains unique station/location ids, and their corresponding names, as well as their geospatial location, either as a point (latitude, longitude values) or alternatively a geojson shape, where coordinates are in latitude and longitude (not in metres), preferably in [WGS84, also known as EPSG: 4326](http://spatialreference.org/ref/epsg/wgs-84/) projection. Should you wish to have some other information on a per-location basis, (e.g. collection method, region, etc.) simply add more columns.  Please note: `LocationID` _must_ be unique in this `locations.csv` file.
 
 #### data/<>.csv
 
@@ -60,9 +60,11 @@ All other files in the `data` directory will be considered as "observational dat
 * location id, which *must* correspond to a location ID in `data/locations.csv`.
 * date or datetime (with time zone, if possible) in [ISO 8601 standard format](https://en.wikipedia.org/wiki/ISO_8601) - e.g. `2007-03-01T13:00:00Z`, `2017-12-31`, `2017-12-31T13:59:59+08:00`
 
-Please look at the example `data/observations.csv` file included in this repository - you should note that observation parameters are _per row_, and the observation type and unit measurement are separate columns.
+Please look at the example `data/observations.csv` file included in this repository - you should note that observation parameters are _per row_, and the parameter type and unit measurement are separate columns.
 
-#### data/<>.geojson (optional)
+### Optional files
+
+#### data/<>.geojson _(optional)_
 
 Github has a built in mapping system, where, if you supply valid geojson formatted files, it will map out points and geometry. Most mapping software has the ability to export into geojson.  There are free converters of popular formats to geojson online as well. [Read more about GeoJSON.](http://geojson.org/).
 
