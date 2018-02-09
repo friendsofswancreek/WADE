@@ -51,7 +51,7 @@ This file contains any "metadata" you wish to have for the system. This may incl
 
 #### data/locations.csv
 
-This file contains unique station/location ids, and their corresponding names, as well as their geospatial location, either as a point (latitude, longitude values) or alternatively a geojson shape, where coordinates are in latitude and longitude (not in metres), preferably in [WGS84, also known as EPSG: 4326](http://spatialreference.org/ref/epsg/wgs-84/) projection. Should you wish to have some other information on a per-location basis, (e.g. collection method, region, etc.) simply add more columns.  Please note: `LocationID` _must_ be unique in this `locations.csv` file.
+This file contains unique station/location ids, and their corresponding names, as well as their geospatial location, either as a point (latitude, longitude values) or alternatively a geojson shape (column "Geometry"), where coordinates are in latitude and longitude (not in metres), preferably in [WGS84, also known as EPSG: 4326](http://spatialreference.org/ref/epsg/wgs-84/) projection. Should you wish to have some other information on a per-location basis, (e.g. collection method, region, etc.) simply add more columns.  Please note: `LocationID` _must_ be unique in this `locations.csv` file.
 
 #### data/<>.csv
 
