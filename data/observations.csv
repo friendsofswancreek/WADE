@@ -13,3 +13,4 @@ Date,Location,LocationID,Parameter,Units,Value
 2015-08-30T10:30:00.0-08:00,Example Creek,ex01,Temperature,C,17.1
 2017-05-02T10:40:00.0-08:00,Example D/S,ex02,Electrical Conductivity,ppm,509
 2016-05-23T10:36:00.0-08:00,Example D/S,ex02,Electrical Conductivity,MS,510
+2017-06-02T10:40:00.0-08:00,Example D/S,ex02,Beryllium Total,mg/L,< 0.00001
