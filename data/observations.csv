@@ -1,19 +1,19 @@
-Date,LocationName,LocationID,Parameter,Units,Value,LocationPurpose (Optional),SamplingAgency (Optional),AnalyzingAgency (Optional),CollectionMethod (Optional),SampleState (Optional),SampleDescriptor (Optional),AnalyticalMethod (Optional)
-2013-08-07T14:35:00.0-08:00,Example Creek,ex01,Percent Dissolved Oxygen,,0,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2013-08-07T14:35:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2015-07-26T10:52:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.03,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2017-08-08T13:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.1,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2017-08-22T10:50:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.1,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2017-07-10T11:05:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.2,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2017-09-05T11:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.2,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2015-07-26T10:52:00.0-08:00,Example Creek,ex01,Percent Dissolved Oxygen,,0.3,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2015-06-20T00:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.7,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Calculation (t/d)
-2015-08-30T10:30:00.0-08:00,Example Creek,ex01,Temperature,C,17.1,SPILL,Water Management,Maxxam Analytics Inc,Gel Sampler,Fresh Water,General,Thermometer (Hg)
-2015-07-26T10:20:00.0-08:00,Example D/S,ex02,Percent Dissolved Oxygen,,0.08,BACKGROUND,Fort Nelson Pollution Control Centre,ALS Global,Grab - Discrete Samples,Waste Water,General,Calculation (t/d)
-2017-11-14T12:00:00.0-08:00,Example D/S,ex02,pH,,7,BACKGROUND,Fort Nelson Pollution Control Centre,ALS Global,Grab - Discrete Samples,Waste Water,General,pH@25C 1:2 Soil:H2O susp.
-2017-05-02T10:40:00.0-08:00,Example D/S,ex02,Electrical Conductivity,ppm,509,BACKGROUND,Fort Nelson Pollution Control Centre,ALS Global,Grab - Discrete Samples,Waste Water,General,Meter-in situ
-2016-05-23T10:36:00.0-08:00,Example D/S,ex02,Electrical Conductivity,MS,510,BACKGROUND,Fort Nelson Pollution Control Centre,ALS Global,Grab - Discrete Samples,Waste Water,General,Meter-in situ
-2017-06-02T10:40:00.0-08:00,Example D/S,ex02,Beryllium Total,mg/L,< 0.00001,BACKGROUND,Fort Nelson Pollution Control Centre,ALS Global,Grab - Discrete Samples,Waste Water,General,Acid;ICPMS
-2015-06-20T00:00:00.0-08:00,Example Well,ex03,Zinc Dissolved,mg/L,0.00025,TREND,Permittee,Maxxam Analytics Inc,Grab - Discrete Samples,Fresh Water,Municipal/Domestic,Total metals: FA; HNO3; HR-ICPMS (No Prep)Prep)
-2017-11-14T12:00:00.0-08:00,Example Well,ex03,Hardness,mg/L,250,TREND,Permittee,Maxxam Analytics Inc,Grab - Discrete Samples,Fresh Water,Municipal/Domestic,Calculation (mg/L)
-2015-08-30T10:30:00.0-08:00,Example Well,ex03,Nitrate (NO3) Dissolved,mg/L,8,TREND,CARO Environmental Services,Maxxam Analytics Inc,Grab - Discrete Samples,Fresh Water,Municipal/Domestic,UV Spectrophotometric Screen
+Date,LocationName,LocationID,Parameter,Units,Value,AnalyticalMethod (Optional),CollectionMethod (Optional),AnalyzingAgency (Optional),SampleState (Optional),SampleDescriptor (Optional),LocationPurpose (Optional),SamplingAgency (Optional)
+2013-08-07T14:35:00.0-08:00,Example Creek,ex01,Percent Dissolved Oxygen,,0,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2013-08-07T14:35:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2015-07-26T10:52:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.03,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2017-08-08T13:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.1,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2017-08-22T10:50:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.1,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2017-07-10T11:05:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.2,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2017-09-05T11:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.2,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2015-07-26T10:52:00.0-08:00,Example Creek,ex01,Percent Dissolved Oxygen,,0.3,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2015-06-20T00:00:00.0-08:00,Example Creek,ex01,Dissolved Oxygen,mg/l,0.7,Calculation (t/d),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2015-08-30T10:30:00.0-08:00,Example Creek,ex01,Temperature,C,17.1,Thermometer (Hg),Gel Sampler,Maxxam Analytics Inc,Fresh Water,General,SPILL,Water Management
+2015-07-26T10:20:00.0-08:00,Example D/S,ex02,Percent Dissolved Oxygen,,0.08,Calculation (t/d),Grab - Discrete Samples,ALS Global,Waste Water,General,BACKGROUND,Fort Nelson Pollution Control Centre
+2017-11-14T12:00:00.0-08:00,Example D/S,ex02,pH,,7,pH@25C 1:2 Soil:H2O susp.,Grab - Discrete Samples,ALS Global,Waste Water,General,BACKGROUND,Fort Nelson Pollution Control Centre
+2017-05-02T10:40:00.0-08:00,Example D/S,ex02,Electrical Conductivity,ppm,509,Meter-in situ,Grab - Discrete Samples,ALS Global,Waste Water,General,BACKGROUND,Fort Nelson Pollution Control Centre
+2016-05-23T10:36:00.0-08:00,Example D/S,ex02,Electrical Conductivity,MS,510,Meter-in situ,Grab - Discrete Samples,ALS Global,Waste Water,General,BACKGROUND,Fort Nelson Pollution Control Centre
+2017-06-02T10:40:00.0-08:00,Example D/S,ex02,Beryllium Total,mg/L,< 0.00001,Acid;ICPMS,Grab - Discrete Samples,ALS Global,Waste Water,General,BACKGROUND,Fort Nelson Pollution Control Centre
+2015-06-20T00:00:00.0-08:00,Example Well,ex03,Zinc Dissolved,mg/L,0.00025,Total metals: FA; HNO3; HR-ICPMS (No Prep)Prep),Grab - Discrete Samples,Maxxam Analytics Inc,Fresh Water,Municipal/Domestic,TREND,Permittee
+2017-11-14T12:00:00.0-08:00,Example Well,ex03,Hardness,mg/L,250,Calculation (mg/L),Grab - Discrete Samples,Maxxam Analytics Inc,Fresh Water,Municipal/Domestic,TREND,Permittee
+2015-08-30T10:30:00.0-08:00,Example Well,ex03,Nitrate (NO3) Dissolved,mg/L,8,UV Spectrophotometric Screen,Grab - Discrete Samples,Maxxam Analytics Inc,Fresh Water,Municipal/Domestic,TREND,CARO Environmental Services
