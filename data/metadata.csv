@@ -1,2 +1,2 @@
-Title,Description,Email,URL
-Example Group Name,This is an example group description. Your stated purpose might be a good description.,example@example.com,http://www.example.com
+Title,Description,ProvidedQA,Redistribute,Licence,Email,URL
+Example Group Name,This is an example group description. Your stated purpose might be a good description.,TRUE,TRUE,https://opendatacommons.org/licenses/by/,example@example.com,http://www.example.com
