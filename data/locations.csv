@@ -1,3 +1,4 @@
-Name,LocationID,Latitude,Longitude,Description,Geometry,Collection Method (Optional)
-Example Creek,ex01,59.444073,-123.654309,"Located in Fort Nelson region, this example is an example location",,Pressure Transducer
-Example D/S,ex02,59.444073,-123.654309,"Also located in Fort Nelson, this is an example description too, feel free to delete these rows.",,Ultrasonic
+LocationName,LocationID,Latitude,Longitude,Description,LocationType
+Example Well,ex01,59.444073,-123.654309,"Located in Fort Nelson region, this example is an example location",Freshwater
+Example D/S,ex02,59.444073,-123.654309,"Also located in Fort Nelson, this is an example description too, feel free to delete these rows.",Freshwater
+Example Well,ex03,59.445,-123.66,"Located near Fort Nelson, this is an example monitoring well",Monitoring Well
