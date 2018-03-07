@@ -1,4 +1,19 @@
 LocationName,LocationID,Latitude,Longitude,Description,LocationType
-Example Well,ex01,59.444073,-123.654309,"Located in Fort Nelson region, this example is an example location",Freshwater
-Example D/S,ex02,59.444073,-123.654309,"Also located in Fort Nelson, this is an example description too, feel free to delete these rows.",Freshwater
-Example Well,ex03,59.445,-123.66,"Located near Fort Nelson, this is an example monitoring well",Monitoring Well
+Carey and Mackenzie,5,48.46629,-123.39007,Between McKenzie Ave and Carey Rd on the south side of McKenzie.,Freshwater
+Christmas Hill Spring,6,48.46863,-123.3864,"In Swan Creek Park, where the walking paths cross upstream of the confluence of the brook with Swan Creek.",Freshwater
+Allotments,8,48.46366,-123.38229,Downstream bridge in the allotment gardens.,Freshwater
+Above Swan,10,48.46476,-123.36827,"Just upstream of Swan Lake, in Swan Creek Park where the walking path cross Blenkinsop Creek",Freshwater
+Allotments Upper,11,48.46323,-123.38145,Upstream bridge in the allotment gardens.,Freshwater
+Art's Riffle,1,48.46701,-123.40018,At the constructed riffle just downstream of Daisy Ave.,Freshwater
+Blenkinsop Lake,12,48.48205,-123.36,On the Lochside Trail bridge crossing Blenkinsop Lake.,Freshwater
+Columbine Riffle,3,48.46672,-123.39551,"Downstream of the McKenzie overpass, at the constructed riffle where streamside restoration has also taken place.",Freshwater
+Columbine Culvert Downstream,4,48.46512,-123.39367,Downstream of the main culvert entering into Swan Creek in the park adjacent to Columbine Way.,Freshwater
+Colquitz North Mann,13,48.48933,-123.39544,Colquitz main stem off the path north of Mann Ave.,Freshwater
+Colquitz North Side,14,48.46751,-123.40126,Colquitz main stem just upstream of Marigold Rd.,Freshwater
+Columbine Culvert,15,48.4651,-123.39333,Water flowing from the culvert flowing into Swan Creek in the park adjacent to Columbine Way.,Stormwater
+Columbine Culvert Upstream,16,48.46512,-123.39296,Upstream of the main culvert entering into Swan Creek in the park adjacent to Columbine Way.,Freshwater
+Mike's Bridge,2,48.46759,-123.39917,At the first bridge north of Daisy Ave.,Freshwater
+Swan Creek upstream of Christmas Hill Spring,7,48.46797,-123.38583,"North side of MacKenzie, in Swan Creek park before the confluece with Christmas Hill spring.",Freshwater
+Swan Lake,9,48.46433,-123.3732,Swan Lake at the main viewing platform near the nature house.,Freshwater
+DS Ivy Grove Camp,17,48.46737,-123.39619,"In Swan Creek Forest, closed canopy firs and makeshift camp and bike track.",Freshwater
+Flats,18,48.47235,-123.40448,Colquitz main stem adjacent to Panama Flats.,Freshwater
