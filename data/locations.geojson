@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "station_name": "Carey and Mackenzie", "gid": 5, "xcoord": -123.390071, "ycoord": 48.466286 }, "geometry": { "type": "Point", "coordinates": [ -123.390071, 48.466286 ] } },
+{ "type": "Feature", "properties": { "station_name": "Christmas Hill Spring", "gid": 6, "xcoord": -123.386396, "ycoord": 48.468625 }, "geometry": { "type": "Point", "coordinates": [ -123.386396, 48.468625 ] } },
+{ "type": "Feature", "properties": { "station_name": "Allotments", "gid": 8, "xcoord": -123.38228611496378, "ycoord": 48.463657885821306 }, "geometry": { "type": "Point", "coordinates": [ -123.382286, 48.463658 ] } },
+{ "type": "Feature", "properties": { "station_name": "Above Swan", "gid": 10, "xcoord": -123.368267, "ycoord": 48.464759 }, "geometry": { "type": "Point", "coordinates": [ -123.368267, 48.464759 ] } },
+{ "type": "Feature", "properties": { "station_name": "Allotments Upper", "gid": 11, "xcoord": -123.3814501323718, "ycoord": 48.463232539822052 }, "geometry": { "type": "Point", "coordinates": [ -123.38145, 48.463233 ] } },
+{ "type": "Feature", "properties": { "station_name": "Art's Riffle", "gid": 1, "xcoord": -123.40017938246542, "ycoord": 48.467010015556788 }, "geometry": { "type": "Point", "coordinates": [ -123.400179, 48.46701 ] } },
+{ "type": "Feature", "properties": { "station_name": "Blenkinsop Lake", "gid": 12, "xcoord": -123.3600041018021, "ycoord": 48.482050132258991 }, "geometry": { "type": "Point", "coordinates": [ -123.360004, 48.48205 ] } },
+{ "type": "Feature", "properties": { "station_name": "Columbine Riffle", "gid": 3, "xcoord": -123.395509, "ycoord": 48.466716 }, "geometry": { "type": "Point", "coordinates": [ -123.395509, 48.466716 ] } },
+{ "type": "Feature", "properties": { "station_name": "Columbine Culvert Downstream", "gid": 4, "xcoord": -123.393673, "ycoord": 48.465119 }, "geometry": { "type": "Point", "coordinates": [ -123.393673, 48.465119 ] } },
+{ "type": "Feature", "properties": { "station_name": "Colquitz North Mann", "gid": 13, "xcoord": -123.39544061752878, "ycoord": 48.489333263682504 }, "geometry": { "type": "Point", "coordinates": [ -123.395441, 48.489333 ] } },
+{ "type": "Feature", "properties": { "station_name": "Colquitz North Side", "gid": 14, "xcoord": -123.4012590267529, "ycoord": 48.467509297305774 }, "geometry": { "type": "Point", "coordinates": [ -123.401259, 48.467509 ] } },
+{ "type": "Feature", "properties": { "station_name": "Columbine Culvert", "gid": 15, "xcoord": -123.39332957349619, "ycoord": 48.465097698446137 }, "geometry": { "type": "Point", "coordinates": [ -123.39333, 48.465098 ] } },
+{ "type": "Feature", "properties": { "station_name": "Columbine Culvert Upstream", "gid": 16, "xcoord": -123.39295770322623, "ycoord": 48.465120251335357 }, "geometry": { "type": "Point", "coordinates": [ -123.392958, 48.46512 ] } },
+{ "type": "Feature", "properties": { "station_name": "Mike's Bridge", "gid": 2, "xcoord": -123.39917321001974, "ycoord": 48.467590539121709 }, "geometry": { "type": "Point", "coordinates": [ -123.399173, 48.467591 ] } },
+{ "type": "Feature", "properties": { "station_name": "Swan Creek upstream of Christmas Hill Spring", "gid": 7, "xcoord": -123.385829, "ycoord": 48.467972 }, "geometry": { "type": "Point", "coordinates": [ -123.385829, 48.467972 ] } },
+{ "type": "Feature", "properties": { "station_name": "Swan Lake", "gid": 9, "xcoord": -123.373195, "ycoord": 48.464329 }, "geometry": { "type": "Point", "coordinates": [ -123.373195, 48.464329 ] } },
+{ "type": "Feature", "properties": { "station_name": "DS Ivy Grove Camp", "gid": 17, "xcoord": -123.39619116057372, "ycoord": 48.467369475813094 }, "geometry": { "type": "Point", "coordinates": [ -123.396191, 48.467369 ] } },
+{ "type": "Feature", "properties": { "station_name": "Flats", "gid": 18, "xcoord": -123.40448114659222, "ycoord": 48.472350190984223 }, "geometry": { "type": "Point", "coordinates": [ -123.404481, 48.47235 ] } }
+]
+}
