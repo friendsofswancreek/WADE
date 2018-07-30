@@ -2428,3 +2428,18 @@ Date,LocationName,LocationID,Parameter,Units,Value,CollectionMethod,SampleState,
 2015-06-06T00:00:00.0-08:00,Swan Lake,9,Temperature  ,degrees C,26.8,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
 2017-07-25T12:20:00.0-08:00,Swan Lake,9,Temperature  ,degrees C,27.4,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
 2017-08-08T13:35:00.0-08:00,Swan Lake,9,Temperature  ,degrees C,27.8,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T17:49:00.0-08:00,Columbine Willow,,Dissolved Oxygen,mg/l,6.4,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T17:49:00.0-08:00,Columbine Willow,,Dissolved Oxygen,percent,76,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T17:49:00.0-08:00,Columbine Willow,,Electrical Conductivity,microsiemens,589,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T17:49:00.0-08:00,Columbine Willow,,pH,,7,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T17:49:00.0-08:00,Columbine Willow,,Temperature  ,degrees C,23.6,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:20:00.0-08:00,Art's House at Daisy,,Dissolved Oxygen,mg/l,5.7,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:20:00.0-08:00,Art's House at Daisy,,Dissolved Oxygen,percent,63,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:20:00.0-08:00,Art's House at Daisy,,Electrical Conductivity,microsiemens,400,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:20:00.0-08:00,Art's House at Daisy,,pH,,6,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:20:00.0-08:00,Art's House at Daisy,,Temperature  ,degrees C,20.4,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:35:00.0-08:00,Art's Riffle,1,Dissolved Oxygen,mg/l,6.6,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:35:00.0-08:00,Art's Riffle,1,Dissolved Oxygen,percent,73,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:35:00.0-08:00,Art's Riffle,1,Electrical Conductivity,microsiemens,388,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:35:00.0-08:00,Art's Riffle,1,pH,,7,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
+2018-07-25T18:35:00.0-08:00,Art's Riffle,1,Temperature  ,degrees C,20.5,In Stream Observations,Fresh Water,General,BACKGROUND,Friends of Swan Creek
