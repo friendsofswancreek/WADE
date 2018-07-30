@@ -19,6 +19,8 @@
 { "type": "Feature", "properties": { "station_name": "Swan Creek upstream of Christmas Hill Spring", "gid": 7, "xcoord": -123.385829, "ycoord": 48.467972 }, "geometry": { "type": "Point", "coordinates": [ -123.385829, 48.467972 ] } },
 { "type": "Feature", "properties": { "station_name": "Swan Lake", "gid": 9, "xcoord": -123.373195, "ycoord": 48.464329 }, "geometry": { "type": "Point", "coordinates": [ -123.373195, 48.464329 ] } },
 { "type": "Feature", "properties": { "station_name": "DS Ivy Grove Camp", "gid": 17, "xcoord": -123.39619116057372, "ycoord": 48.467369475813094 }, "geometry": { "type": "Point", "coordinates": [ -123.396191, 48.467369 ] } },
+{ "type": "Feature", "properties": { "station_name": "Columbine Willow", "gid": 19, "xcoord": -123.391983, "ycoord": 48.465351 }, "geometry": { "type": "Point", "coordinates": [ -123.391983, 48.465351 ] } },
+{ "type": "Feature", "properties": { "station_name": "Art's House", "gid": 20, "xcoord": -123.399485, "ycoord": 48.467198 }, "geometry": { "type": "Point", "coordinates": [ -123.399485, 48.467198 ] } },
 { "type": "Feature", "properties": { "station_name": "Flats", "gid": 18, "xcoord": -123.40448114659222, "ycoord": 48.472350190984223 }, "geometry": { "type": "Point", "coordinates": [ -123.404481, 48.47235 ] } }
 ]
 }
